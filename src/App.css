@@ -1,0 +1,325 @@
+.container {
+  width: 100%;
+  background: rgba(252, 249, 249, 0.938)
+}
+
+.Barra_Navegacion {
+  padding: 5px;
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.header {
+  float: left;
+  width: 12%;
+}
+
+.header img {
+  width: 100%;
+}
+
+.navegacion {
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 20px;
+  
+}
+.sinline {
+  text-decoration: none;
+}
+.cambio {
+  
+  color: #53575a;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: initial;
+}
+
+.cambio:hover {
+  color: red;
+  border-bottom: 1px solid red;
+  padding-bottom: 10px;
+}
+.banner1, .banner_2 {
+  width: 100%;
+  background: rgb(69, 155, 226) 
+}
+
+hr {
+  clear: both;
+}
+
+.escritobanner1 {
+
+  width: 50%;
+  height: 500px;
+  float: left;
+
+}
+
+.img_banner {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.escrito {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.escritobaaner1_info {
+
+  width:100%;
+  margin: 0px auto;
+  margin-top: 75px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.escritobaaner1_input input {
+  display: block;
+  font-size: 25px;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.escritobaaner1_input button {
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 20px 25px;
+  border-radius: 5px;
+  background: #ff9100;
+}
+
+
+.color {
+  color: #fff;
+}
+
+.cursos_dest {
+  width: 90%;
+  margin: auto;
+}
+
+.cursos_title {
+  text-align: center;
+  font-size: 24px;
+  color: #282d31;
+}
+
+
+.videos {
+  margin: 5px;
+  width: 32%;
+  display: inline-block;
+}
+
+.videos_img {
+  text-align: center;
+}
+
+.videos_img img {
+  width: 100%;
+}
+
+.nombre_curso {
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+  border-bottom : 1px solid grey;
+}
+.btn_cursos_dest {
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 20px 25px;
+  border-radius: 5px;
+  background: #ff9100;
+  margin: 0 auto;
+}
+
+.container_cursos_destacados {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.img_banner_2 {
+  float: left;
+  padding: 10px;
+  width: 40%;
+  text-align: center;
+}
+
+.img_banner_2 img {
+  width: 60%;
+  margin:30px;
+}
+
+.infor_banner_2 {
+  width: 55%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 100px;
+
+}
+
+.info_banner_p {
+  margin-top: 10px;
+  font-size: 1.3em;
+  color: #fff;
+  font-family: Arial;
+  font-style: italic;
+}
+
+.btn_banner_2 {
+  display: block;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 20px 25px;
+  border-radius: 5px;
+  background: #ff9100;
+  font-style: italic;
+}
+
+.seccion_contacto {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top:50px;
+}
+
+.seccion_contacto h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #282d31;
+}
+
+.seccion_contacto span i {
+  margin-right: 10px;
+  width: 50px;
+  color: #282d31;
+}
+
+.seccion_informacion {
+  /* background: yellow; */
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.seccion_informacion h2 {
+  /* background: blue; */
+  text-align: center;
+}
+
+.contenido {
+  background: cyan;
+}
+
+.contenido_indiv {
+  /* background: red; */
+  width: 31%;
+  margin: 10px;
+  height: 220px;
+  box-sizing: border-box;
+  float: left;
+  border: 1px solid rgb(212, 212, 212)
+}
+
+.contenido_indiv img {
+  width: 150px;
+  height:150px;
+  /* background: green; */
+  float: left;
+  margin-right: 10px;
+}
+
+.cont_ind {
+  background: rgb(0, 183, 255);
+  text-align: right;
+  padding: 5px 15px;
+  font-size: 15px;
+  color: #fff;
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+
+footer {
+  background: #282d31;
+  color: #fff;
+}
+
+.footer_1{
+  width: 35%;
+  float: left;
+  margin:1.5%;
+  margin-bottom: 100px;
+}
+
+.footer_1_list {
+  width: 70%;
+  float: right;
+}
+
+.footer_1_list h2 {
+  border-bottom:1px solid #fff;
+}
+
+.footer_1_list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.footer_1_list ul li {
+  font-size: 14px;
+}
+
+.footer_1_list span i {
+  margin-right: 20px;
+}
+
+.footer_3 {
+  width: 35%;
+  float: right;
+  margin:1.5%;
+}
+
+.footer_3 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  color: #00cbff;
+}
+
+.footer_3 ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.footer_3 button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #007bdf;
+  color: #fff;
+}
