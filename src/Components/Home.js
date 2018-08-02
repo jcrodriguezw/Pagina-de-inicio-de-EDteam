@@ -1,6 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-
 import Barra_Navegacion from './components/Barra_Navegacion/Barra_Navegacion'
 import Banner_1 from './components/Banner_1/Banner_1'
 import Cursos_Destacados from './components/Cursos_Destacados'
@@ -12,9 +10,7 @@ import Footer from './components/Footer'
 class Home extends React.Component {
     render() {
         return(
-            
-            <div className='container'> {/*ESTE CONTENEDOR ES EL CONTENEDOR COMPLETO*/}
-                
+            <div className='container'>
                 <Barra_Navegacion />                
                 <Banner_1 />
                 <Cursos_Destacados />
@@ -22,9 +18,7 @@ class Home extends React.Component {
                 <Seccion_Informacion />
                 <Seccion_Contacto />
                 <Footer />
-
             </div>
-
         )
     }
 }
