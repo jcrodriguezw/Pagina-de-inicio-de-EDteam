@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cursos = () => {
     return(
-        <div>
+        <div style={{color:'violet'}}>
             <p> Desde cursos </p>
         </div>
     )
